@@ -2,12 +2,16 @@
 using namespace std;
 int main ()
 {
-    int n,result=0,x,y;
-     int mx=0;
-       cin>>n;
-  while(n--){
-    cin>>x>>y;
-    result=result+y-x;
+    int n,result;
+    cin>>n;
+    int a[n+1],b[n+1],c[n+1];
+    int i,mx=0;
+    c[0]=0;
+    for(i=1; i<=n; i++)
+    {
+        cin>>a[i]>>b[i];
+        result=b[i]+c[i-1]-a[i];
+        c[i]=result;
         if(result>mx)
         {
             mx=result;
