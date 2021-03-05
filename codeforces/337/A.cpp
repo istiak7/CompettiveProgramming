@@ -8,7 +8,13 @@ int main ()
   for(i=0;i<puz;i++){
     cin>>ara[i];
   }
+ // int n=sizeof(ara)/sizeof(ara[0]);
   sort(ara,ara+puz);
+ /* for(i=0;i<puz;i++){
+    cout<<ara[i]<<" ";
+  }
+  cout<<endl;
+  */
   int mi=1000000,r,c;
   for(i=0;i<puz;i++){
     c=ara[st-1],
