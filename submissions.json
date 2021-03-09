@@ -1,4 +1,21 @@
 {
+  "CF109507474": {
+    "contest_id": 6,
+    "language": "GNU C++17",
+    "path": "codeforces\\6\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Triangle",
+    "problem_url": "https://codeforces.com/contest/6/problem/A",
+    "submission_id": "CF109507474",
+    "submission_url": "https://codeforces.com/contest/6/submission/109507474",
+    "tags": [
+      "brute force",
+      "geometry",
+      "*900"
+    ],
+    "timestamp": "Mar/09/2021 23:21"
+  },
   "CF109534694": {
     "contest_id": 299,
     "language": "GNU C++17",
