@@ -7,7 +7,8 @@ int main()
     int i;
     char ara[mx];
     cin>>n>>k;
-        cin>>ara;
+    for(i=0; i<n; i++)
+        cin>>ara[i];
     int c=0;
 
     for(i=0; i<n; i++)
