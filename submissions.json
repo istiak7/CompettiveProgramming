@@ -1,4 +1,20 @@
 {
+  "CF109987134": {
+    "contest_id": 12,
+    "language": "GNU C++17",
+    "path": "codeforces\\12\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Super Agent",
+    "problem_url": "https://codeforces.com/contest/12/problem/A",
+    "submission_id": "CF109987134",
+    "submission_url": "https://codeforces.com/contest/12/submission/109987134",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Mar/14/2021 22:44"
+  },
   "CF110433427": {
     "contest_id": 710,
     "language": "GNU C++17",
