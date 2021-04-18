@@ -1,4 +1,20 @@
 {
+  "CF113380472": {
+    "contest_id": 1373,
+    "language": "GNU C++17",
+    "path": "codeforces\\1373\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "01 Game",
+    "problem_url": "https://codeforces.com/contest/1373/problem/B",
+    "submission_id": "CF113380472",
+    "submission_url": "https://codeforces.com/contest/1373/submission/113380472",
+    "tags": [
+      "games",
+      "*900"
+    ],
+    "timestamp": "Apr/18/2021 11:08"
+  },
   "CF113386474": {
     "contest_id": 702,
     "language": "GNU C++17",
