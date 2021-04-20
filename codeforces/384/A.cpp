@@ -4,7 +4,7 @@ int main()
 {
     int n;
     cin>>n;
-    char ara[n][n];
+    char ara[n+1][n+1];
     int i,j,c=0;
     for(i=0;i<n;i++){
         for(j=0;j<n;j++){
