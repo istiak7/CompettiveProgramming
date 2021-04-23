@@ -1,4 +1,21 @@
 {
+  "CF113939771": {
+    "contest_id": 1514,
+    "language": "GNU C++17",
+    "path": "codeforces\\1514\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Perfectly Imperfect Array",
+    "problem_url": "https://codeforces.com/contest/1514/problem/A",
+    "submission_id": "CF113939771",
+    "submission_url": "https://codeforces.com/contest/1514/submission/113939771",
+    "tags": [
+      "math",
+      "number theory",
+      "*800"
+    ],
+    "timestamp": "Apr/23/2021 10:39"
+  },
   "CF113961354": {
     "contest_id": 318,
     "language": "GNU C++17",
