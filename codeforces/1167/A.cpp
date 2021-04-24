@@ -8,9 +8,9 @@ int main()
     {
         int n,c=0;
         cin>>n;
-      string s;
+         char s[101];
         cin>>s;
-        int len=s.length();
+        int len=strlen(s);
         if(n<11)
             cout<<"NO"<<endl;
         else
