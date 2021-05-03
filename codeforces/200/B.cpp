@@ -16,7 +16,7 @@ int main()
         }
         double p=net*100;
         double per=p/n;
-     cout << fixed << setprecision(12) << per ;
+       printf("%.12lf",per);
 
     return 0;
 }
