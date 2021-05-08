@@ -1,4 +1,21 @@
 {
+  "CF115674291": {
+    "contest_id": 1038,
+    "language": "GNU C++17",
+    "path": "codeforces\\1038\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Equality",
+    "problem_url": "https://codeforces.com/contest/1038/problem/A",
+    "submission_id": "CF115674291",
+    "submission_url": "https://codeforces.com/contest/1038/submission/115674291",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "May/08/2021 13:39"
+  },
   "CF115842377": {
     "contest_id": 1353,
     "language": "GNU C++17",
