@@ -1,4 +1,21 @@
 {
+  "CF117781813": {
+    "contest_id": 549,
+    "language": "GNU C++17",
+    "path": "codeforces\\549\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Face Detection",
+    "problem_url": "https://codeforces.com/contest/549/problem/A",
+    "submission_id": "CF117781813",
+    "submission_url": "https://codeforces.com/contest/549/submission/117781813",
+    "tags": [
+      "implementation",
+      "strings",
+      "*900"
+    ],
+    "timestamp": "May/29/2021 20:08"
+  },
   "CF117798173": {
     "contest_id": 549,
     "language": "GNU C++17",
