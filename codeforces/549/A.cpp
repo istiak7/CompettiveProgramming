@@ -9,20 +9,35 @@ int main()
     // freopen("out.txt","w",stdout);
     int n,m;
     cin>>n>>m;
-  char ara[100][100];
-  int i,j,cnt=0;
-  for(i=0;i<n;i++)for(j=0;j<m;j++)cin>>ara[i][j];
-  for(i=0;i<n;i++){for(j=0;j<m;j++)
+
+    char ara[n+1][m+1];
+    int i,j,cnt=0;
+    int ara2[125]= {0};
+    for(i=0; i<n; i++)
     {
-        string s={};
-        s+=ara[i][j];
-        s+=ara[i][j+1];
-        s+=ara[i+1][j];
-        s+=ara[i+1][j+1];
-        sort(s.begin(),s.end());
-        if(s=="acef")cnt++;
+        for(j=0; j<m; j++)
+        {
+            cin>>ara[i][j];
+        }
     }
-  }
-  cout<<cnt<<endl;
+    for(i=0; i<n; i++)
+    {
+
+        for(j=0; j<m; j++)
+        {
+            if(i!=n-1&&j!=m-1)
+            {
+
+                ara2[ ara[i][j] ]++;
+                ara2[ ara[i][j+1] ]++;
+                ara2[ ara[i+1][j] ]++;
+                ara2[ ara[i+1][j+1] ]++;
+
+                if(ara2[97]==1&& ara2[99]==1 && ara2[101]==1&&ara2[102]==1)cnt++;
+                ara2[97]= ara2[99]=ara2[101]=ara2[102]=0;
+            }
+        }
+    }
+    cout<<cnt<<endl;
     return 0;
 }
