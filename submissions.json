@@ -1,4 +1,20 @@
 {
+  "CF118245229": {
+    "contest_id": 169,
+    "language": "GNU C++17",
+    "path": "codeforces\\169\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Chores",
+    "problem_url": "https://codeforces.com/contest/169/problem/A",
+    "submission_id": "CF118245229",
+    "submission_url": "https://codeforces.com/contest/169/submission/118245229",
+    "tags": [
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Jun/03/2021 11:45"
+  },
   "CF118254650": {
     "contest_id": 490,
     "language": "GNU C++17",
