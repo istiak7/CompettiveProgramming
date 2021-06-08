@@ -9,13 +9,36 @@ int main()
     // freopen("out.txt","w",stdout);
     ll n;
     cin>>n;
-    set<int>a;
-    for(int i=0; i<n; i++)
+    vector<int>v;
+    int i;
+    for(i=0; i<n; i++)
     {
         int x;
         cin>>x;
-        if(x!=0)a.insert(x);
+        v.pb(x);
     }
-    cout<<a.size()<<endl;
+    for(i=0; i<v.size(); i++)
+    {
+        if(v[i]==0)
+        {
+            v.erase(v.begin()+i);
+            i--;
+        }
+    }
+    if(v.size()==0)
+    {
+        cout<<v.size();
+        return 0;
+    }
+    sort(v.begin(),v.end());
+    for(i=0; i<v.size()-1; i++)
+    {
+        if(v[i]==v[i+1])
+        {
+            v.erase(v.begin()+i);
+            i--;
+        }
+    }
+    cout<<v.size()<<endl;
 }
 
