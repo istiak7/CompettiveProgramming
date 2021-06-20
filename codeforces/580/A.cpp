@@ -18,15 +18,18 @@ int main()
         v.push_back(x);
     }
     int mx=0,cnt=0;
-    for(i=0; i<v.size()-1; i++)
+       for(i=0; i<v.size()-1; i++)
     {
-        if(v[i]<=v[i+1])
-        {
+       if(v[i]<=v[i+1]){
             cnt++;
             if(mx<cnt)mx=cnt;
-        }
-        else cnt=0;
+     }
+         else if(v[i]>v[i+1]){
+                cnt=0;
+    }
+       // cout<<mx<<" "<<cnt<<endl;
     }
     cout<<mx+1<<endl;
+
     return 0;
 }
