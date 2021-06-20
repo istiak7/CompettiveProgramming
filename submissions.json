@@ -1,4 +1,21 @@
 {
+  "CF120156784": {
+    "contest_id": 1343,
+    "language": "GNU C++17",
+    "path": "codeforces\\1343\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Candies",
+    "problem_url": "https://codeforces.com/contest/1343/problem/A",
+    "submission_id": "CF120156784",
+    "submission_url": "https://codeforces.com/contest/1343/submission/120156784",
+    "tags": [
+      "brute force",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Jun/21/2021 00:46"
+  },
   "CF120177491": {
     "contest_id": 1339,
     "language": "GNU C++17",
