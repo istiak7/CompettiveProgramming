@@ -1982,6 +1982,24 @@
     ],
     "timestamp": "Jun/25/2021 03:00"
   },
+  "CF122037872": {
+    "contest_id": 844,
+    "language": "GNU C++17",
+    "path": "codeforces\\844\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Diversity",
+    "problem_url": "https://codeforces.com/contest/844/problem/A",
+    "submission_id": "CF122037872",
+    "submission_url": "https://codeforces.com/contest/844/submission/122037872",
+    "tags": [
+      "greedy",
+      "implementation",
+      "strings",
+      "*1000"
+    ],
+    "timestamp": "Jul/11/2021 11:22"
+  },
   "CF122131389": {
     "contest_id": 108,
     "language": "GNU C++17 (64)",
