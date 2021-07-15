@@ -11,11 +11,17 @@ int main()
     cin>>t;
     while(t--)
     {
-        flag=0;
         cin>>a>>b>>n>>s;
-        if(s/n<=a){if(s%n<=b)flag=1;}
-        else if((a*n)+b>=s)flag=1;
-
+        if(s/n<=a)
+        {
+            if(s%n<=b)flag=1;
+            else flag=0;
+        }
+        else
+        {
+            if((a*n)+b>=s)flag=1;
+            else flag=0;
+        }
         if(flag==1)cout<<"YES"<<endl;
         else cout<<"NO"<<endl;
     }
