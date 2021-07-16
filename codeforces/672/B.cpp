@@ -13,7 +13,10 @@ int main()
     cin>>s;
     sort(s.begin(),s.end());
     int cnt=0;
-    for(int i=0; i<s.size()-1; i++)if(s[i]==s[i+1])cnt++;
+    for(int i=0; i<s.size()-1; i++)
+    {
+        if(s[i]==s[i+1])cnt++;
+    }
     int n_distinct=n-cnt;
     if(n_distinct+cnt>26)cout<<"-1"<<endl;
     else cout<<cnt<<endl;
