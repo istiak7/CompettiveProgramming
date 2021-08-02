@@ -10,10 +10,14 @@ int main()
     ll n,m;
     cin>>n>>m;
          int cnt=0;
+     if(n==m)cout<<"0"<<endl;
+     else if(n>m)cout<<"-1"<<endl;
+     else{
         while(n<m){
             if(m%(n*3)==0){n*=3;cnt++;}
             else if(m%(n*2)==0){n*=2;cnt++;}
-            else break;
+          else break;
         }
         cout<<( n==m ? cnt  : -1)<<endl;
+     }
 }
