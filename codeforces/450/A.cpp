@@ -7,19 +7,45 @@ using namespace std;
 int main()
 {
     optimize();
-    int n,m,x;
+    int n,m;
     cin>>n>>m;
-    int cnt =0,ans;
-    for(int i=0; i<n; i++)
+    vector<int>v;
+    int mx=0,div;
+    int i;
+    for(i=0; i<n; i++)
     {
+        int x;
         cin>>x;
-        if(x%m==0) x/=m;
-        else x=x/m+1;
-        if(x>=cnt)
+        v.pb(x);
+        if(x%m==0)
         {
-            cnt=x;
-            ans=i;
+            div=x/m;
+            if(mx<div)mx=div;
+        }
+        else
+        {
+            div=(x/m)+1;
+            if(mx<div)mx=div;
         }
     }
-    cout<<ans+1<<endl;
+    for(i=v.size()-1; i>=0; i--)
+    {
+        if(v[i]%m==0)
+        {
+            if(v[i]/m==mx)
+            {
+                cout<<i+1<<endl;
+                return 0;
+            }
+        }
+        else
+        {
+            if((v[i]/m)+1==mx)
+            {
+                cout<<i+1<<endl;
+                return 0;
+            }
+        }
+
+    }
 }
