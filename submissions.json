@@ -1982,6 +1982,24 @@
     ],
     "timestamp": "Jun/25/2021 03:00"
   },
+  "CF125420473": {
+    "contest_id": 120,
+    "language": "GNU C++17",
+    "path": "codeforces\\120\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Elevator",
+    "problem_url": "https://codeforces.com/contest/120/problem/A",
+    "submission_id": "CF125420473",
+    "submission_url": "https://codeforces.com/contest/120/submission/125420473",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Aug/10/2021 02:32"
+  },
   "CF125520804": {
     "contest_id": 1515,
     "language": "GNU C++17",
