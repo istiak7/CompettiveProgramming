@@ -22,18 +22,19 @@ bool isPrime(int number){
  int main()
  {
     optimize();
-    int t,x;cin>>t;
+    int t;cin>>t;
     while(t--){
         int n,m;cin>>n>>m;
+        int ara[n][m];
         int i,j;
         int flag=1,cnt=0,sum=0,mini=101;
         for(i=0;i<n;i++){
             for(j=0;j<m;j++){
-                cin>>x;
-                mini=min(mini,abs(x));
-                if(x==0)flag=0;
-                if(x<0)cnt++;
-                sum+=abs(x);
+                cin>>ara[i][j];
+                mini=min(mini,abs(ara[i][j]));
+                if(ara[i][j]==0)flag=0;
+                if(ara[i][j]<0)cnt++;
+                sum+=abs(ara[i][j]);
             }
         }
 
