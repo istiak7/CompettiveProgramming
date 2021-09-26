@@ -1,4 +1,21 @@
 {
+  "CF129942305": {
+    "contest_id": 1324,
+    "language": "GNU C++17",
+    "path": "codeforces\\1324\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Yet Another Palindrome Problem",
+    "problem_url": "https://codeforces.com/contest/1324/problem/B",
+    "submission_id": "CF129942305",
+    "submission_url": "https://codeforces.com/contest/1324/submission/129942305",
+    "tags": [
+      "brute force",
+      "strings",
+      "*1100"
+    ],
+    "timestamp": "Sep/26/2021 22:19"
+  },
   "CF129945597": {
     "contest_id": 1108,
     "language": "GNU C++17",
