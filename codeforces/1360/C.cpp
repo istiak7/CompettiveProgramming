@@ -24,15 +24,15 @@ int main(){
     while(t--){
      int n;cin>>n;
      int i,j,flag=0;
-   int even=0,odd=0;
+     vector<int>even,odd;
      int ara[101]={0};
      for(i=0;i<n;i++){
          int x;cin>>x;
-         if(x%2==0)even++;
-         else odd++;
+         if(x%2==0)even.pb(x);
+         else odd.pb(x);
          ara[x]++;
      }
-     if(even%2==0&&odd%2==0)cout<<"YES"<<endl;
+     if(even.size()%2==0&&odd.size()%2==0)cout<<"YES"<<endl;
      else{
             for(i=1;i<100;i++){
               if(ara[i]>0&&ara[i+1]>0)flag=1;
