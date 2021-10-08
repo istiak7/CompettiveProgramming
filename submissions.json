@@ -1,4 +1,21 @@
 {
+  "CF131122318": {
+    "contest_id": 82,
+    "language": "GNU C++17",
+    "path": "codeforces\\82\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Double Cola",
+    "problem_url": "https://codeforces.com/contest/82/problem/A",
+    "submission_id": "CF131122318",
+    "submission_url": "https://codeforces.com/contest/82/submission/131122318",
+    "tags": [
+      "implementation",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Oct/08/2021 12:19"
+  },
   "CF131271824": {
     "contest_id": 1594,
     "language": "GNU C++17",
