@@ -1,4 +1,20 @@
 {
+  "AC26445680": {
+    "contest_id": "abc222",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc222\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Failing Grade",
+    "problem_url": "https://atcoder.jp/contests/abc222/tasks/abc222_b",
+    "submission_id": "AC26445680",
+    "submission_url": "https://atcoder.jp/contests/abc222/submissions/26445680",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Oct/09/2021 18:10"
+  },
   "AC29873093": {
     "contest_id": "abc242",
     "language": "C++ (GCC 9.2.1)",
