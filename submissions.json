@@ -1,4 +1,20 @@
 {
+  "CF131672646": {
+    "contest_id": 1573,
+    "language": "GNU C++17",
+    "path": "codeforces\\1573\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Countdown",
+    "problem_url": "https://codeforces.com/contest/1573/problem/A",
+    "submission_id": "CF131672646",
+    "submission_url": "https://codeforces.com/contest/1573/submission/131672646",
+    "tags": [
+      "greedy",
+      "*800"
+    ],
+    "timestamp": "Oct/13/2021 00:12"
+  },
   "CF131777920": {
     "contest_id": 1593,
     "language": "GNU C++17",
