@@ -30,12 +30,12 @@ void p(){
 int main(){
     p();
     int t;cin>>t;while(t--){
-      ll n,flag=1;cin>>n;
+      ll n,flag=0;cin>>n;
        ll root = sqrt(n);
         if(root*root ==n){
-            if(ara[root]==0)flag=0;
+            if(ara[root]==0)flag=1;
         }
-        if(flag==0)cout<<"YES"<<endl;else cout<<"NO"<<endl;
+        if(flag==1)cout<<"YES"<<endl;else cout<<"NO"<<endl;
 }
 }
 
