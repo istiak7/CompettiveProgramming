@@ -19,7 +19,10 @@ using namespace std;
 */
 int main(){
   int n;cin>>n;char ara[n];
-  rep(i,n){
-      if(i%4<2)cout<<"a";else cout<<"b"; }
+  for(int i=0;i<n;i+=4)ara[i]='a';
+  for(int i=1;i<n;i+=4)ara[i]='a';
+  for(int i=2;i<n;i+=4)ara[i]='b';
+  for(int i=3;i<n;i+=4)ara[i]='b';
+  for(int i =0;i<n;i++)cout<<ara[i];
   cout<<endl;
 }
