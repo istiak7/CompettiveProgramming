@@ -1,4 +1,21 @@
 {
+  "CF134951458": {
+    "contest_id": 938,
+    "language": "GNU C++17",
+    "path": "codeforces\\938\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Run For Your Prize",
+    "problem_url": "https://codeforces.com/contest/938/problem/B",
+    "submission_id": "CF134951458",
+    "submission_url": "https://codeforces.com/contest/938/submission/134951458",
+    "tags": [
+      "brute force",
+      "greedy",
+      "*1100"
+    ],
+    "timestamp": "Nov/11/2021 13:01"
+  },
   "CF135828499": {
     "contest_id": 946,
     "language": "GNU C++17",
