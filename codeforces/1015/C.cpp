@@ -20,23 +20,30 @@ using namespace std;
 
 int main()
 {
-    vector<ll> v;
-  ll n,m;cin>>n>>m;
+    std::vector<std::pair<int,int> > v;
+    int n,m;cin>>n>>m;
     ll sx=0,sy=0;
     for(int i=0;i<n;i++){
         ll x,y;
         cin>>x>>y;sx+=x;sy+=y;
-        v.pb(x-y);
+        v.pb(make_pair(x,y));
     }
       if(sy>m)cout<<"-1"<<endl;
       else{
-    sort(v.rbegin(),v.rend());
+    // sort using a custom function object
+    struct {
+        bool operator()(const std::pair<int,int> &a, const std::pair<int,int> &b) const
+        {
+            return ( abs(a.first-a.second) > abs(b.first-b.second));
+        }
+    } differenceIsGreater;
+    std::sort(v.begin(), v.end(), differenceIsGreater);
     int cnt=0;
     for (auto a : v) {
-            if(sx>m) {sx-=a;cnt++;}
+            if(sx>m) {sx-=a.first - a.second;cnt++;}
     }
-   cout<<cnt<<endl;
-}
+cout<<cnt<<endl;
+      }
     return 0;
 }
 
