@@ -20,18 +20,27 @@ using namespace std;
 int main()
 {
    string s;cin>>s;
-   char c[4];int cnt[4]={},w[4]={};
+   int r,b,g,y;
    for(int i=0;i<s.size();i++){
-    if(s[i]!='!'){
-            c[i%4]=s[i];
-        ++cnt[i%4];
-    }
-    ++w[i%4];
+    if(s[i]=='R')r=i;
+    else if(s[i]=='B')b=i;
+    else if(s[i]=='G')g=i;
+    else if(s[i]=='Y')y=i;
    }
-   for(int i=0;i<4;i++)if(c[i]=='R')cout<<w[i]-cnt[i]<<" ";
-   for(int i=0;i<4;i++)if(c[i]=='B')cout<<w[i]-cnt[i]<<" ";
-   for(int i=0;i<4;i++)if(c[i]=='Y')cout<<w[i]-cnt[i]<<" ";
-   for(int i=0;i<4;i++)if(c[i]=='G')cout<<w[i]-cnt[i]<<endl;
+   int kr,kb,ky,kg;kr=kb=ky=kg=0;
+    //red.........
+    for(int i=r;i<s.size();i+=4)if(s[i]=='!')kr++;
+    for(int i=r;i<s.size();i-=4)if(s[i]=='!')kr++;
+    //blue......
+    for(int i=b;i<s.size();i+=4)if(s[i]=='!')kb++;
+    for(int i=b;i<s.size();i-=4)if(s[i]=='!')kb++;
+
+    for(int i=y;i<s.size();i+=4)if(s[i]=='!')ky++;
+    for(int i=y;i<s.size();i-=4)if(s[i]=='!')ky++;
+
+    for(int i=g;i<s.size();i+=4)if(s[i]=='!')kg++;
+    for(int i=g;i<s.size();i-=4)if(s[i]=='!')kg++;
+    cout<<kr<<" "<<kb<<" "<<ky<<" "<<kg<<endl;
 }
 
 
