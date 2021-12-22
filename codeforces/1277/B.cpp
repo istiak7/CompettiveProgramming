@@ -21,16 +21,21 @@ typedef vector<long long int> VLL;
 }
 */
  void F(){
-    ll n;cin>>n;
-    set<ll>s;
-    rep(i,n){
-        ll x;cin>>x;
-        while(x%2==0){
-          x/=2;
-        s.insert(x);
-        }
+ VLL v1,v2;
+    int n;cin>>n;
+    for(int i=0;i<n;i++){
+            ll x;cin>>x;
+     if(x%2==0)v1.pb(x);
     }
-    cout<<s.size()<<'\n';
+      for(int i=0;i<v1.size();i++){
+        while(v1[i]%2==0){
+            v1[i]/=2;
+            v2.pb(v1[i]);
+        }
+      }
+      sort(v2.begin(),v2.end());
+      ll u = unique(v2.begin(),v2.end())-v2.begin();
+      cout<<u<<'\n';
  }
 
 int main()
