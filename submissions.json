@@ -1,4 +1,21 @@
 {
+  "CF141783529": {
+    "contest_id": 1140,
+    "language": "GNU C++17",
+    "path": "codeforces\\1140\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Good String",
+    "problem_url": "https://codeforces.com/contest/1140/problem/B",
+    "submission_id": "CF141783529",
+    "submission_url": "https://codeforces.com/contest/1140/submission/141783529",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1200"
+    ],
+    "timestamp": "Jan/06/2022 11:09"
+  },
   "CF141874831": {
     "contest_id": 1143,
     "language": "GNU C++17",
