@@ -1,4 +1,20 @@
 {
+  "AC36557586": {
+    "contest_id": "abc277",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc277\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Playing Cards Validation",
+    "problem_url": "https://atcoder.jp/contests/abc277/tasks/abc277_b",
+    "submission_id": "AC36557586",
+    "submission_url": "https://atcoder.jp/contests/abc277/submissions/36557586",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Nov/17/2022 19:22"
+  },
   "AC37138119": {
     "contest_id": "abc281",
     "language": "C++ (GCC 9.2.1)",
