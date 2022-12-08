@@ -3369,6 +3369,24 @@
     ],
     "timestamp": "Feb/01/2022 21:45"
   },
+  "CF184348137": {
+    "contest_id": 1575,
+    "language": "GNU C++17",
+    "path": "codeforces\\1575\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Another Sorting Problem",
+    "problem_url": "https://codeforces.com/contest/1575/problem/A",
+    "submission_id": "CF184348137",
+    "submission_url": "https://codeforces.com/contest/1575/submission/184348137",
+    "tags": [
+      "data structures",
+      "sortings",
+      "strings",
+      "*1100"
+    ],
+    "timestamp": "Dec/08/2022 21:22"
+  },
   "CF184876432": {
     "contest_id": 1771,
     "language": "GNU C++17",
