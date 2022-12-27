@@ -3369,6 +3369,24 @@
     ],
     "timestamp": "Feb/01/2022 21:45"
   },
+  "CF186872390": {
+    "contest_id": 1367,
+    "language": "GNU C++17",
+    "path": "codeforces\\1367\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Social Distance",
+    "problem_url": "https://codeforces.com/contest/1367/problem/C",
+    "submission_id": "CF186872390",
+    "submission_url": "https://codeforces.com/contest/1367/submission/186872390",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Dec/27/2022 18:29"
+  },
   "CF186890985": {
     "contest_id": 1731,
     "language": "GNU C++17",
