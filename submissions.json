@@ -1,4 +1,20 @@
 {
+  "AC37973906": {
+    "contest_id": "agc018",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\agc018\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Getting Difference",
+    "problem_url": "https://atcoder.jp/contests/agc018/tasks/agc018_a",
+    "submission_id": "AC37973906",
+    "submission_url": "https://atcoder.jp/contests/agc018/submissions/37973906",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jan/13/2023 11:57"
+  },
   "AC38284803": {
     "contest_id": "abc286",
     "language": "C++ (GCC 9.2.1)",
