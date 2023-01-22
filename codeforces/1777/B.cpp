@@ -48,7 +48,8 @@ void solve()
     ll fact = 1;
     for (ll i = 1; i <= n; i++)
     {
-        fact = ((fact * i) % M) % M;
+        fact = (fact * i);
+        fact = fact % M;
     }
     ll ans = (sum % M * fact % M) % M;
     cout << ans << endl;
