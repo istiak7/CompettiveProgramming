@@ -1,4 +1,21 @@
 {
+  "CF191599010": {
+    "contest_id": 1778,
+    "language": "GNU C++17",
+    "path": "codeforces\\1778\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "The Forbidden Permutation",
+    "problem_url": "https://codeforces.com/contest/1778/problem/B",
+    "submission_id": "CF191599010",
+    "submission_url": "https://codeforces.com/contest/1778/submission/191599010",
+    "tags": [
+      "greedy",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Feb/01/2023 22:22"
+  },
   "CF191856838": {
     "contest_id": 1791,
     "language": "GNU C++17",
