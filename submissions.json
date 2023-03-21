@@ -1,4 +1,22 @@
 {
+  "CF198468183": {
+    "contest_id": 893,
+    "language": "GNU C++17",
+    "path": "codeforces\\893\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Rumor",
+    "problem_url": "https://codeforces.com/contest/893/problem/C",
+    "submission_id": "CF198468183",
+    "submission_url": "https://codeforces.com/contest/893/submission/198468183",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "greedy",
+      "*1300"
+    ],
+    "timestamp": "Mar/21/2023 15:00"
+  },
   "CF198932077": {
     "contest_id": 1676,
     "language": "GNU C++17",
