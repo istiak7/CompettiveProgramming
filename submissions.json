@@ -1,4 +1,23 @@
 {
+  "CF198932077": {
+    "contest_id": 1676,
+    "language": "GNU C++17",
+    "path": "codeforces\\1676\\G.cpp",
+    "platform": "Codeforces",
+    "problem_index": "G",
+    "problem_name": "White-Black Balanced Subtrees",
+    "problem_url": "https://codeforces.com/contest/1676/problem/G",
+    "submission_id": "CF198932077",
+    "submission_url": "https://codeforces.com/contest/1676/submission/198932077",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "trees",
+      "*1300"
+    ],
+    "timestamp": "Mar/24/2023 17:28"
+  },
   "CF199718439": {
     "contest_id": 1808,
     "language": "GNU C++17",
