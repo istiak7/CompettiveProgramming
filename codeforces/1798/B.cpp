@@ -65,10 +65,8 @@ void solve()
 	{
 		int p = -1 ;
 		for(auto u : v[i])
-			if(!mp.count(u)){
+			if(!mp.count(u))
 				p = u ;
-				break;
-			}
 		if(p == -1)
 		{
 			f = 0 ;
