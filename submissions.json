@@ -1,4 +1,21 @@
 {
+  "CF200468445": {
+    "contest_id": 1812,
+    "language": "Mysterious Language",
+    "path": "codeforces\\1812\\J.txt",
+    "platform": "Codeforces",
+    "problem_index": "J",
+    "problem_name": "Unmysterious Language",
+    "problem_url": "https://codeforces.com/contest/1812/problem/J",
+    "submission_id": "CF200468445",
+    "submission_url": "https://codeforces.com/contest/1812/submission/200468445",
+    "tags": [
+      "*special problem",
+      "constructive algorithms",
+      "strings"
+    ],
+    "timestamp": "Apr/03/2023 00:42"
+  },
   "CF200468837": {
     "contest_id": 1812,
     "language": "GNU C++17",
