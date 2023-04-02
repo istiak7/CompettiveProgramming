@@ -1,4 +1,23 @@
 {
+  "CF200467697": {
+    "contest_id": 1812,
+    "language": "GNU C++17",
+    "path": "codeforces\\1812\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Was it Rated?",
+    "problem_url": "https://codeforces.com/contest/1812/problem/B",
+    "submission_id": "CF200467697",
+    "submission_url": "https://codeforces.com/contest/1812/submission/200467697",
+    "tags": [
+      "*special problem",
+      "*special problem",
+      "*special problem",
+      "brute force",
+      "implementation"
+    ],
+    "timestamp": "Apr/03/2023 00:34"
+  },
   "CF200468445": {
     "contest_id": 1812,
     "language": "Mysterious Language",
