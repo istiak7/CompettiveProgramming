@@ -1,4 +1,22 @@
 {
+  "CF201580166": {
+    "contest_id": 1182,
+    "language": "GNU C++17",
+    "path": "codeforces\\1182\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Plus from Picture",
+    "problem_url": "https://codeforces.com/contest/1182/problem/B",
+    "submission_id": "CF201580166",
+    "submission_url": "https://codeforces.com/contest/1182/submission/201580166",
+    "tags": [
+      "dfs and similar",
+      "implementation",
+      "strings",
+      "*1300"
+    ],
+    "timestamp": "Apr/10/2023 01:33"
+  },
   "CF202185326": {
     "contest_id": 1820,
     "language": "GNU C++17",
