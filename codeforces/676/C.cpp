@@ -17,9 +17,9 @@
 #define up upper_bound
 #define endl '\n'
 #define optimize()                 \
-	ios_base ::sync_with_stdio(0); \
-	cin.tie(0);                    \
-	cout.tie(0);
+    ios_base ::sync_with_stdio(0); \
+    cin.tie(0);                    \
+    cout.tie(0);
 #define max_size 200001
 #define M 100005
 using namespace std;
@@ -28,8 +28,8 @@ typedef vector<long long int> VLL;
 
 using namespace __gnu_pbds;
 typedef tree<int, null_type, less<int>, rb_tree_tag,
-			 tree_order_statistics_node_update>
-	ordered_set;
+             tree_order_statistics_node_update>
+    ordered_set;
 // freopen("input.txt","r",stdin);
 // freopen("output.txt","w",stdout);
 string fact[] = {"", "", "2", "3", "322", "5", "53", "7", "7222", "7332"};
@@ -40,48 +40,68 @@ int dx[] = {0, 0, +1, -1, -1, +1, -1, +1};
 int dy[] = {+1, -1, 0, 0, -1, +1, +1, -1};
 int d_row[] = {-1, 0, 1, 0};
 int d_col[] = {0, 1, 0, -1};
+
 const int mx = 2e5 + 123;
 const ll p2 = 2e18;
 const ll N = 1005;
-ll arr[mx], brr[mx];
+bool vis[1001][1001];
+
 int main()
 {
-	optimize();
-	ll n, k;
-	cin >> n >> k;
-	string s;
-	cin >> s;
-	ll a = 0, b = 0;
-	for (ll i = 0; i < n; i++)
-	{
-		if (s[i] == 'b')
-			b++;
-		brr[i] = b;
-
-		if (s[i] == 'a')
-			a++;
-		arr[i] = a;
-	}
-	ll ans = 0;
-	/// make sub a
-	for (ll i = 0; i < n; i++)
-	{
-		ll y;
-		if (s[i] == 'a')
-			y = upper_bound(brr, brr + n, brr[i] + k) - brr;
-		else
-			y = upper_bound(brr, brr + n, brr[i] + k - 1) - brr;
-		ans = max(y - i, ans);
-	}
-	/// make sub b
-	for (ll i = 0; i < n; i++)
-	{
-		ll y;
-		if (s[i] == 'b')
-			y = upper_bound(arr, arr + n, arr[i] + k) - arr;
-		else
-			y = upper_bound(arr, arr + n, arr[i] + k - 1) - arr;
-		ans = max(ans, y - i);
-	}
-	cout << ans << endl;
+    optimize();
+    ll n, k;
+    cin >> n >> k;
+    string s;
+    cin >> s;
+    // make substing as a
+    ll cnt = 0, len = 0, mx_a = 0;
+    queue<ll> qa;
+    for (ll i = 0; i < n; i++)
+    {
+        if (s[i] == 'b')
+        {
+            cnt++;
+            qa.push(i + 1);
+        }
+        if (cnt > k)
+        {
+            len++;
+            len = (i+1)-qa.front();
+            qa.pop();
+            mx_a = max(mx_a, len);
+            cnt--;
+        }
+        else
+        {
+            len++;
+            mx_a = max(mx_a, len);
+        }
+    }
+    // make substring as b
+    cnt = 0, len = 0;
+    ll mx_b = 0;
+    queue<ll> qb;
+    for (ll i = 0; i < n; i++)
+    {
+        if (s[i] == 'a')
+        {
+            cnt++;
+            qb.push(i + 1);
+        }
+        if (cnt > k)
+        {
+            len++;
+            len = (i+1)-qb.front();
+            qb.pop();
+            mx_b = max(mx_b, len);
+            cnt--;
+        }
+        else
+        {
+            len++;
+            mx_b = max(mx_b, len);
+        }
+    }
+    ll ans = max(mx_a, mx_b);
+    cout << ans << endl;
 }
