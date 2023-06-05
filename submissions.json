@@ -1,4 +1,22 @@
 {
+  "CF208622350": {
+    "contest_id": 670,
+    "language": "GNU C++17",
+    "path": "codeforces\\670\\D1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D1",
+    "problem_name": "Magic Powder - 1",
+    "problem_url": "https://codeforces.com/contest/670/problem/D1",
+    "submission_id": "CF208622350",
+    "submission_url": "https://codeforces.com/contest/670/submission/208622350",
+    "tags": [
+      "binary search",
+      "brute force",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Jun/05/2023 23:40"
+  },
   "CF208855942": {
     "contest_id": 1833,
     "language": "GNU C++17",

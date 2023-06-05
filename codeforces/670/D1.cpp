@@ -15,10 +15,6 @@
 #define SORT(v) sort((v).begin(), (v).end())
 #define lb lower_bound
 #define up upper_bound
-#define print(ans)              \
-	for (int i = 0; i < n; i++) \
-		cout << ans[i] << " ";  \
-	cout << endl;
 #define endl '\n'
 #define optimize()                 \
 	ios_base ::sync_with_stdio(0); \
@@ -26,7 +22,6 @@
 	cout.tie(0);
 #define max_size 200001
 #define M 100005
-#define arr array
 using namespace std;
 typedef vector<int> VI;
 typedef vector<long long int> VLL;
@@ -38,12 +33,9 @@ typedef tree<int, null_type, less<int>, rb_tree_tag,
 // freopen("input.txt","r",stdin);
 // freopen("output.txt","w",stdout);
 string fact[] = {"", "", "2", "3", "322", "5", "53", "7", "7222", "7332"};
-const ll INF = 20000000000;
+const ll INF = 2000000000;
 const ll INFLL = 9000000000000000000;
-/*	vector<vector<ll> > a(n,vector<ll>(2));
-		rep(i, n)cin >> a[i][0];
-	pass vec in fun const vector<long long>& a
-*/
+
 int dx[] = {0, 0, +1, -1, -1, +1, -1, +1};
 int dy[] = {+1, -1, 0, 0, -1, +1, +1, -1};
 int d_row[] = {-1, 0, 1, 0};
@@ -51,41 +43,64 @@ int d_col[] = {0, 1, 0, -1};
 const int mx = 2e5 + 123;
 const ll p2 = 2e18;
 const ll N = 1005;
+ll arr[mx], brr[mx];
 
-bool check(ll md, const VLL &a, const VLL &b, ll k)
-{
-	ll n = a.size();
-	rep(i, n)
-	{
-		if (a[i] * md >= b[i])
-		{
-			k -= (a[i] * md - b[i]);
-		}
-		if (k < 0)
-			return false;
-	}
-	return true;
-}
-int main()
+void solve()
 {
 	ll n, k;
 	cin >> n >> k;
 	VLL a(n), b(n);
 	rep(i, n) cin >> a[i];
 	rep(i, n) cin >> b[i];
-	ll lw = 0;
-	ll hi = INF;
-	ll md, ans = 0 ;
-	while (lw <= hi)
+	priority_queue<pi, vector<pi>, greater<pi> > pq;
+	rep(i, n)
 	{
-		md = (lw + hi) >> 1;
-		if (check(md, a, b, k))
+		ll div = b[i] / a[i];
+		ll r = a[i] - (b[i] % a[i]);
+		// pq.push(make_pair(div, r));
+		pq.push(make_pair(div, make_pair(r, a[i])));
+	}
+	// while(!pq.empty()){
+	// 	cout << pq.top().first<<" "<<pq.top().second << endl;
+	// 	pq.pop();
+	// }
+	// cout << pq.top().second.first<<endl;
+	while (k > 0)
+	{
+		ll rr = pq.top().second.first;
+		if (rr == 0)
 		{
-			ans = md ;
-			lw = md + 1;
+			if (pq.top().second.second <= k)
+			{
+				k -= pq.top().second.second;
+				ll first = pq.top().first;
+				ll second_f = pq.top().second.first;
+				ll second_s = pq.top().second.second;
+				pq.pop();
+				pq.push(make_pair(first + 1, make_pair(rr, second_s)));
+			}
+			else
+			{
+				break;
+			}
+		}
+		else if (k >= rr)
+		{
+			k -= rr;
+			rr = 0;
+			ll first = pq.top().first;
+			ll second_f = pq.top().second.first;
+			ll second_s = pq.top().second.second;
+			pq.pop();
+			pq.push(make_pair(first + 1, make_pair(rr, second_s)));
 		}
 		else
-			hi = md - 1;
+			break;
 	}
-	cout << ans << endl;
+	cout << pq.top().first << endl;
+}
+int main()
+{
+	optimize();
+	solve();
 }
