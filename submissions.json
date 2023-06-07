@@ -1,4 +1,21 @@
 {
+  "CF208874019": {
+    "contest_id": 1833,
+    "language": "GNU C++17",
+    "path": "codeforces\\1833\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Restore the Weather",
+    "problem_url": "https://codeforces.com/contest/1833/problem/B",
+    "submission_id": "CF208874019",
+    "submission_url": "https://codeforces.com/contest/1833/submission/208874019",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*900"
+    ],
+    "timestamp": "Jun/07/2023 15:00"
+  },
   "CF208890726": {
     "contest_id": 670,
     "language": "GNU C++17",
