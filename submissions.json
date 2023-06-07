@@ -1,4 +1,21 @@
 {
+  "CF208929341": {
+    "contest_id": 911,
+    "language": "GNU C++17",
+    "path": "codeforces\\911\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Three Garlands",
+    "problem_url": "https://codeforces.com/contest/911/problem/C",
+    "submission_id": "CF208929341",
+    "submission_url": "https://codeforces.com/contest/911/submission/208929341",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "*1400"
+    ],
+    "timestamp": "Jun/08/2023 01:21"
+  },
   "CF208956781": {
     "contest_id": 1840,
     "language": "GNU C++17",
