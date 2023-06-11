@@ -4893,6 +4893,22 @@
     ],
     "timestamp": "Jun/10/2023 20:30"
   },
+  "CF209247613": {
+    "contest_id": 1832,
+    "language": "GNU C++17",
+    "path": "codeforces\\1832\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "New Palindrome",
+    "problem_url": "https://codeforces.com/contest/1832/problem/A",
+    "submission_id": "CF209247613",
+    "submission_url": "https://codeforces.com/contest/1832/submission/209247613",
+    "tags": [
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Jun/11/2023 11:26"
+  },
   "CF209272375": {
     "contest_id": 1832,
     "language": "GNU C++17",
