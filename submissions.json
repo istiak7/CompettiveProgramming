@@ -4893,6 +4893,24 @@
     ],
     "timestamp": "Jun/10/2023 20:30"
   },
+  "CF209577886": {
+    "contest_id": 1823,
+    "language": "GNU C++17",
+    "path": "codeforces\\1823\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Sort with Step",
+    "problem_url": "https://codeforces.com/contest/1823/problem/B",
+    "submission_id": "CF209577886",
+    "submission_url": "https://codeforces.com/contest/1823/submission/209577886",
+    "tags": [
+      "brute force",
+      "math",
+      "sortings",
+      "*900"
+    ],
+    "timestamp": "Jun/13/2023 20:47"
+  },
   "CF209603134": {
     "contest_id": 1741,
     "language": "GNU C++17",
