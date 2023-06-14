@@ -4893,6 +4893,25 @@
     ],
     "timestamp": "Jun/10/2023 20:30"
   },
+  "CF209666339": {
+    "contest_id": 1726,
+    "language": "GNU C++17",
+    "path": "codeforces\\1726\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Jatayu's Balanced Bracket Sequence",
+    "problem_url": "https://codeforces.com/contest/1726/problem/C",
+    "submission_id": "CF209666339",
+    "submission_url": "https://codeforces.com/contest/1726/submission/209666339",
+    "tags": [
+      "data structures",
+      "dsu",
+      "graphs",
+      "greedy",
+      "*1300"
+    ],
+    "timestamp": "Jun/14/2023 18:52"
+  },
   "CF209697039": {
     "contest_id": 1675,
     "language": "GNU C++17",
