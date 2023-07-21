@@ -4893,6 +4893,23 @@
     ],
     "timestamp": "Jun/10/2023 20:30"
   },
+  "CF214794826": {
+    "contest_id": 1850,
+    "language": "GNU C++17",
+    "path": "codeforces\\1850\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Ten Words of Wisdom",
+    "problem_url": "https://codeforces.com/contest/1850/problem/B",
+    "submission_id": "CF214794826",
+    "submission_url": "https://codeforces.com/contest/1850/submission/214794826",
+    "tags": [
+      "implementation",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Jul/21/2023 20:46"
+  },
   "CF214806628": {
     "contest_id": 1850,
     "language": "GNU C++17",
