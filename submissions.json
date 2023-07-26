@@ -4893,6 +4893,22 @@
     ],
     "timestamp": "Jun/10/2023 20:30"
   },
+  "CF215781121": {
+    "contest_id": 1851,
+    "language": "GNU C++17",
+    "path": "codeforces\\1851\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Tiles Comeback",
+    "problem_url": "https://codeforces.com/contest/1851/problem/C",
+    "submission_id": "CF215781121",
+    "submission_url": "https://codeforces.com/contest/1851/submission/215781121",
+    "tags": [
+      "greedy",
+      "*1000"
+    ],
+    "timestamp": "Jul/27/2023 00:59"
+  },
   "CF215781874": {
     "contest_id": 1853,
     "language": "GNU C++17",
