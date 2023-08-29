@@ -56,21 +56,44 @@ void solve()
     cin >> n;
     string s;
     cin >> s;
-    ll ans = INF;
-    for (int i = 0; i < n; i++)
+    ll ans = -1;
+    // check aa
+    for (int i = 0; i < n - 1; i++)
     {
-        vector<int> freq(3, 0);
-        freq[s[i] - 'a']++;
-        for (int j = i + 1; j < min(n, i + 7LL); j++)
+        if (s[i] == 'a' && s[i + 1] == 'a')
         {
-            freq[s[j] - 'a']++;
-            if (freq[0] > freq[1] && freq[0] > freq[2])
-            {
-                ans = min(ans, j - i + 1LL);
-            }
+            ans = 2;
+            break;
         }
     }
-    if(ans == INF) ans = -1 ;
+    // check axa
+    for (int i = 0; i < n - 2; i++)
+    {
+        if (s[i] == 'a' && s[i + 2] == 'a')
+        {
+            if (ans == -1)
+                ans = 3;
+            break;
+        }
+    }
+    // check axya
+    for (int i = 0; i < n - 3; i++)
+    {
+        if (s[i] == 'a' && s[i + 3] == 'a' && s[i + 1] != s[i + 2])
+        {
+            if (ans == -1)
+                ans = 4;
+            break;
+        }
+    }
+    // check axxayya
+    for (int i = 0; i < n - 5; i++)
+    {
+        if (s[i] == 'a' && s[i + 3] == 'a' && s[i + 1] == s[i + 2] &&
+            s[i + 6] == 'a' && s[i + 4] == s[i + 5] && s[i + 1] != s[i + 4])
+            if (ans == -1)
+                ans = 7;
+    }
     cout << ans << endl;
 }
 int main()
