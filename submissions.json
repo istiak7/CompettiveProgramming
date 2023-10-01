@@ -1,4 +1,23 @@
 {
+  "CF226156664": {
+    "contest_id": 1875,
+    "language": "GNU C++17",
+    "path": "codeforces\\1875\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Jellyfish and Green Apple",
+    "problem_url": "https://codeforces.com/contest/1875/problem/C",
+    "submission_id": "CF226156664",
+    "submission_url": "https://codeforces.com/contest/1875/submission/226156664",
+    "tags": [
+      "bitmasks",
+      "greedy",
+      "math",
+      "number theory",
+      "*1400"
+    ],
+    "timestamp": "Oct/01/2023 17:58"
+  },
   "CF226189870": {
     "contest_id": 1875,
     "language": "GNU C++17",
