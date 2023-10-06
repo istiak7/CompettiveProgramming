@@ -1,4 +1,22 @@
 {
+  "CF226880827": {
+    "contest_id": 1421,
+    "language": "GNU C++17",
+    "path": "codeforces\\1421\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "XORwice",
+    "problem_url": "https://codeforces.com/contest/1421/problem/A",
+    "submission_id": "CF226880827",
+    "submission_url": "https://codeforces.com/contest/1421/submission/226880827",
+    "tags": [
+      "bitmasks",
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Oct/06/2023 19:30"
+  },
   "CF226973027": {
     "contest_id": 1566,
     "language": "GNU C++17",
