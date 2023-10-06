@@ -59,7 +59,12 @@ int main()
     int t ; cin >> t ;
     while (t--) {
         ll n ; cin >> n ;
-        int msb = __builtin_clzll(n);
-        cout << (1 << (32 - msb - 1)) - 1 << endl ;
+        int p = 0 , cnt = 0 ;
+        while (n != 0) {
+            cnt++;
+            n = n >> 1 ;
+            if (n & 1)p = cnt ;
+        }
+        cout << (1 << p) - 1 << endl ;
     }
 }
