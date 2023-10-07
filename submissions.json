@@ -1,4 +1,23 @@
 {
+  "CF227060289": {
+    "contest_id": 467,
+    "language": "GNU C++17",
+    "path": "codeforces\\467\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Fedor and New Game",
+    "problem_url": "https://codeforces.com/contest/467/problem/B",
+    "submission_id": "CF227060289",
+    "submission_url": "https://codeforces.com/contest/467/submission/227060289",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "constructive algorithms",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Oct/08/2023 01:50"
+  },
   "CF227127038": {
     "contest_id": 1877,
     "language": "GNU C++17",
