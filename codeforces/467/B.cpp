@@ -59,14 +59,24 @@ int main()
     cin.tie(0);
     int n , m , k ; cin >> n >> m >> k ;
     VI v(m);
-    for (int i = 0 ; i < m ; i++) {
+    for(int i = 0 ; i < m ;i++){
         cin >> v[i];
     }
     int fedora ; cin >> fedora;
     int ans = 0 ;
-    for (int i = 0 ; i < m ; i++) {
-        if (__builtin_popcount((fedora ^ v[i])) <= k )
-            ans++;
+    for(int i = 0 ; i < m ; i++){
+        int cnt = 0 ;
+        int x = v[i];
+        int f = fedora ;
+        for(int j = 0 ; j < 31 ; j++){
+            if((((x & 1) == 0) && ((f & 1) == 1 ))
+                || (((x & 1) == 1) && ((f & 1) == 0))){
+                cnt++;
+            }
+            x = x >> 1 ;
+            f = f >> 1 ;
+        }
+        if(cnt <= k) ans++;
     }
     cout << ans << endl ;
 }
