@@ -57,10 +57,5 @@ int main()
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     ll n ; cin >> n ;
-    int cnt = 0 ;
-    while(n != 0){
-        if(n & 1) cnt++;
-        n >>= 1 ;
-    }
-    cout << cnt << '\n';
+    cout << __builtin_popcountll(n)<<endl;
 }
