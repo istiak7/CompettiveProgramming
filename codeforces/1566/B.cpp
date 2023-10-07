@@ -59,15 +59,12 @@ int main()
     int t ; cin >> t ;
     while (t--) {
         string s ; cin >> s ;
-        if(s.find('0') == string::npos)
-            cout << "0" << '\n';
-        else
-        {
-            int first_occur = s.find('0');
-            int last_occur = s.rfind('0');
-            if((last_occur - first_occur) + 1 == count(s.begin(),s.end(),'0'))
-                cout << "1" << '\n';
-            else cout << "2"<<endl;  
+        int cnt = 0 ; 
+        for(int i = 0 ; i < s.size();i++){
+           if(i == 0 && s[i] == '0')cnt++;
+           else if(s[i]=='0' && s[i-1]=='1')cnt++;
         }
+
+        cout << min(2,cnt) << endl ;
     }
 }
