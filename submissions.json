@@ -1,4 +1,23 @@
 {
+  "CF228968330": {
+    "contest_id": 1249,
+    "language": "GNU C++17",
+    "path": "codeforces\\1249\\C2.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C2",
+    "problem_name": "Good Numbers (hard version)",
+    "problem_url": "https://codeforces.com/contest/1249/problem/C2",
+    "submission_id": "CF228968330",
+    "submission_url": "https://codeforces.com/contest/1249/submission/228968330",
+    "tags": [
+      "binary search",
+      "greedy",
+      "math",
+      "meet-in-the-middle",
+      "*1500"
+    ],
+    "timestamp": "Oct/21/2023 00:05"
+  },
   "CF229740184": {
     "contest_id": 1095,
     "language": "GNU C++17",
