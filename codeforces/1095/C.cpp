@@ -61,32 +61,19 @@ const int N = 200005;
 void solve() {
     ll n , k ;
     cin >> n >> k ;
-    if(n < k){
-        cout << "NO"<<'\n';
-        return;
+    ll sum = k ;
+    VLL v(k, 1);
+    for (int i = k - 1 ; i >= 0 ; i--) {
+        while (sum + v[i] <= n) {
+            sum += v[i];
+            v[i]*=2;
+        }
     }
-    priority_queue<int>pq;
-    for (int i = 0; i < 30; ++i)
-    {
-        if(n & (1 << i))
-            pq.push(1<<i);
+    if(sum!=n) cout << "NO" << endl;
+    else {
+        cout << "YES"<<endl;
+        rep(i,k)cout << v[i] <<" ";
     }
-    if(pq.size()>k){
-        cout << "NO"<<'\n';
-        return;
-    }
-    while(pq.size()<k){
-        int po = pq.top();
-        pq.pop();
-        pq.push(po/2);
-        pq.push(po/2);
-    }
-    cout << "YES"<<'\n';
-    while(!pq.empty()){
-        cout << pq.top()<<" ";
-        pq.pop();
-    }
-    cout << endl;
 }
 
 int main()
