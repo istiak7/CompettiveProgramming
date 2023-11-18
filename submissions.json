@@ -1,4 +1,20 @@
 {
+  "CF233297843": {
+    "contest_id": 1030,
+    "language": "GNU C++17",
+    "path": "codeforces\\1030\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "In Search of an Easy Problem",
+    "problem_url": "https://codeforces.com/contest/1030/problem/A",
+    "submission_id": "CF233297843",
+    "submission_url": "https://codeforces.com/contest/1030/submission/233297843",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Nov/18/2023 19:18"
+  },
   "CF233616829": {
     "contest_id": 701,
     "language": "GNU C++17",
