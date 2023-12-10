@@ -1,4 +1,22 @@
 {
+  "CF236665830": {
+    "contest_id": 1817,
+    "language": "GNU C++17",
+    "path": "codeforces\\1817\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Almost Increasing Subsequence",
+    "problem_url": "https://codeforces.com/contest/1817/problem/A",
+    "submission_id": "CF236665830",
+    "submission_url": "https://codeforces.com/contest/1817/submission/236665830",
+    "tags": [
+      "binary search",
+      "data structures",
+      "greedy",
+      "*1500"
+    ],
+    "timestamp": "Dec/10/2023 20:20"
+  },
   "CF236718994": {
     "contest_id": 1907,
     "language": "GNU C++17",
