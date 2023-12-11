@@ -1,4 +1,22 @@
 {
+  "CF236723927": {
+    "contest_id": 1907,
+    "language": "GNU C++17",
+    "path": "codeforces\\1907\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "YetnotherrokenKeoard",
+    "problem_url": "https://codeforces.com/contest/1907/problem/B",
+    "submission_id": "CF236723927",
+    "submission_url": "https://codeforces.com/contest/1907/submission/236723927",
+    "tags": [
+      "data structures",
+      "implementation",
+      "strings",
+      "*1000"
+    ],
+    "timestamp": "Dec/11/2023 10:54"
+  },
   "CF236733662": {
     "contest_id": 1907,
     "language": "GNU C++17",
