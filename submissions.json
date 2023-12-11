@@ -1,4 +1,22 @@
 {
+  "CF236781640": {
+    "contest_id": 1896,
+    "language": "GNU C++17",
+    "path": "codeforces\\1896\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "AB Flipping",
+    "problem_url": "https://codeforces.com/contest/1896/problem/B",
+    "submission_id": "CF236781640",
+    "submission_url": "https://codeforces.com/contest/1896/submission/236781640",
+    "tags": [
+      "greedy",
+      "strings",
+      "two pointers",
+      "*900"
+    ],
+    "timestamp": "Dec/11/2023 19:27"
+  },
   "CF239697631": {
     "contest_id": 1916,
     "language": "GNU C++17",
