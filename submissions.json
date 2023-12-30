@@ -1,4 +1,21 @@
 {
+  "CF239715957": {
+    "contest_id": 1915,
+    "language": "GNU C++17",
+    "path": "codeforces\\1915\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Odd One Out",
+    "problem_url": "https://codeforces.com/contest/1915/problem/A",
+    "submission_id": "CF239715957",
+    "submission_url": "https://codeforces.com/contest/1915/submission/239715957",
+    "tags": [
+      "bitmasks",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Dec/30/2023 23:00"
+  },
   "CF239758980": {
     "contest_id": 1915,
     "language": "GNU C++17",
