@@ -1,4 +1,21 @@
 {
+  "CF239759025": {
+    "contest_id": 1915,
+    "language": "GNU C++17",
+    "path": "codeforces\\1915\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Can I Square?",
+    "problem_url": "https://codeforces.com/contest/1915/problem/C",
+    "submission_id": "CF239759025",
+    "submission_url": "https://codeforces.com/contest/1915/submission/239759025",
+    "tags": [
+      "binary search",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Dec/31/2023 12:05"
+  },
   "CF239759097": {
     "contest_id": 1915,
     "language": "GNU C++17",
