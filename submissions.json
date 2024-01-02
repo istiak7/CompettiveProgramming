@@ -1,4 +1,21 @@
 {
+  "CF239954451": {
+    "contest_id": 1914,
+    "language": "GNU C++17",
+    "path": "codeforces\\1914\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Preparing for the Contest",
+    "problem_url": "https://codeforces.com/contest/1914/problem/B",
+    "submission_id": "CF239954451",
+    "submission_url": "https://codeforces.com/contest/1914/submission/239954451",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jan/02/2024 12:33"
+  },
   "CF239954482": {
     "contest_id": 1914,
     "language": "GNU C++17",
