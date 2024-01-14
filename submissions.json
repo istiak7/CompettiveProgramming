@@ -1,4 +1,20 @@
 {
+  "AC49320162": {
+    "contest_id": "abc336",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc336\\C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Even Digits",
+    "problem_url": "https://atcoder.jp/contests/abc336/tasks/abc336_c",
+    "submission_id": "AC49320162",
+    "submission_url": "https://atcoder.jp/contests/abc336/submissions/49320162",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jan/14/2024 21:04"
+  },
   "AC49378073": {
     "contest_id": "dp",
     "language": "C++ 20 (gcc 12.2)",
