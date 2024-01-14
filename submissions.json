@@ -1,4 +1,20 @@
 {
+  "AC49290383": {
+    "contest_id": "abc336",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc336\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "CTZ",
+    "problem_url": "https://atcoder.jp/contests/abc336/tasks/abc336_b",
+    "submission_id": "AC49290383",
+    "submission_url": "https://atcoder.jp/contests/abc336/submissions/49290383",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Jan/14/2024 18:10"
+  },
   "AC49320162": {
     "contest_id": "abc336",
     "language": "C++ 20 (gcc 12.2)",
