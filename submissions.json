@@ -1,4 +1,20 @@
 {
+  "AC49285036": {
+    "contest_id": "abc336",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc336\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Long Loong",
+    "problem_url": "https://atcoder.jp/contests/abc336/tasks/abc336_a",
+    "submission_id": "AC49285036",
+    "submission_url": "https://atcoder.jp/contests/abc336/submissions/49285036",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Jan/14/2024 18:04"
+  },
   "AC49290383": {
     "contest_id": "abc336",
     "language": "C++ 20 (gcc 12.2)",
