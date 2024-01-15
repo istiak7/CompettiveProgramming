@@ -1,4 +1,21 @@
 {
+  "CF241763044": {
+    "contest_id": 1921,
+    "language": "GNU C++17",
+    "path": "codeforces\\1921\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Arranging Cats",
+    "problem_url": "https://codeforces.com/contest/1921/problem/B",
+    "submission_id": "CF241763044",
+    "submission_url": "https://codeforces.com/contest/1921/submission/241763044",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jan/15/2024 21:17"
+  },
   "CF241790061": {
     "contest_id": 1921,
     "language": "GNU C++17",
