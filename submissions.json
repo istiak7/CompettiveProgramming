@@ -1,4 +1,21 @@
 {
+  "CF241790061": {
+    "contest_id": 1921,
+    "language": "GNU C++17",
+    "path": "codeforces\\1921\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Sending Messages",
+    "problem_url": "https://codeforces.com/contest/1921/problem/C",
+    "submission_id": "CF241790061",
+    "submission_url": "https://codeforces.com/contest/1921/submission/241790061",
+    "tags": [
+      "greedy",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Jan/15/2024 21:46"
+  },
   "CF241825716": {
     "contest_id": 1921,
     "language": "GNU C++17",
