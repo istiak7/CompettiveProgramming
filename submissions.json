@@ -1,4 +1,17 @@
 {
+  "CF245163439": {
+    "contest_id": 1927,
+    "language": "GNU C++17",
+    "path": "codeforces\\1927\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Following the String",
+    "problem_url": "https://codeforces.com/contest/1927/problem/B",
+    "submission_id": "CF245163439",
+    "submission_url": "https://codeforces.com/contest/1927/submission/245163439",
+    "tags": [],
+    "timestamp": "Feb/06/2024 21:43"
+  },
   "CF245253117": {
     "contest_id": 1927,
     "language": "GNU C++17",
