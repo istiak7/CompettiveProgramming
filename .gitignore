@@ -15,4 +15,4 @@
 # Still ignore these files
 __pycache__
 *.pyc
-harwest/lib/resources/setup.json
+
